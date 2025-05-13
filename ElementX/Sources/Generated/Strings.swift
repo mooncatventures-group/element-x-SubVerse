@@ -1716,7 +1716,7 @@ internal enum L10n {
   internal static var screenNotificationSettingsSystemNotificationsTurnedOff: String { return L10n.tr("Localizable", "screen_notification_settings_system_notifications_turned_off") }
   /// Notifications
   internal static var screenNotificationSettingsTitle: String { return L10n.tr("Localizable", "screen_notification_settings_title") }
-  /// Sign in manually
+  /// Secure Sign in
   internal static var screenOnboardingSignInManually: String { return L10n.tr("Localizable", "screen_onboarding_sign_in_manually") }
   /// Sign in to %1$@
   internal static func screenOnboardingSignInTo(_ p1: Any) -> String {
@@ -1726,7 +1726,7 @@ internal enum L10n {
   internal static var screenOnboardingSignInWithQrCode: String { return L10n.tr("Localizable", "screen_onboarding_sign_in_with_qr_code") }
   /// Create account
   internal static var screenOnboardingSignUp: String { return L10n.tr("Localizable", "screen_onboarding_sign_up") }
-  /// Welcome to the fastest %1$@ ever. Supercharged for speed and simplicity.
+  /// Welcome to %1$@ . The Future of Matrix Based Security.
   internal static func screenOnboardingWelcomeMessage(_ p1: Any) -> String {
     return L10n.tr("Localizable", "screen_onboarding_welcome_message", String(describing: p1))
   }
@@ -1770,7 +1770,7 @@ internal enum L10n {
   internal static var screenQrCodeLoginConnectionNoteSecureStateListItem1: String { return L10n.tr("Localizable", "screen_qr_code_login_connection_note_secure_state_list_item_1") }
   /// If you encounter the same problem, try a different wifi network or use your mobile data instead of wifi
   internal static var screenQrCodeLoginConnectionNoteSecureStateListItem2: String { return L10n.tr("Localizable", "screen_qr_code_login_connection_note_secure_state_list_item_2") }
-  /// If that doesn’t work, sign in manually
+  /// If that doesn’t work, Secure Sign in
   internal static var screenQrCodeLoginConnectionNoteSecureStateListItem3: String { return L10n.tr("Localizable", "screen_qr_code_login_connection_note_secure_state_list_item_3") }
   /// Connection not secure
   internal static var screenQrCodeLoginConnectionNoteSecureStateTitle: String { return L10n.tr("Localizable", "screen_qr_code_login_connection_note_secure_state_title") }

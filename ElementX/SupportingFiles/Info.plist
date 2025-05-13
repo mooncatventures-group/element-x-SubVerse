@@ -54,7 +54,7 @@
 			<string>Application</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>$(BASE_BUNDLE_IDENTIFIER)</string>
+				<string>com.mooncatventures.elementx</string>
 			</array>
 		</dict>
 	</array>
